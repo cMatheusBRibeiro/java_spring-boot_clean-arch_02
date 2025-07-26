@@ -10,4 +10,6 @@ public interface UserGateway {
     Optional<User> findUserById(Long userId);
 
     User updateUser(User user);
+
+    User createUser(User user);
 }
